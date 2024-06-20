@@ -1,0 +1,48 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.calendar-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border:5px solid rgb(0, 0, 0);
+  background-image: url("./Default_anime_scenery_with_bright_colors_0.jpg");
+}
+
+.calendar-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.calendar-header button {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 10px;
+}
+
+.calendar-day {
+  padding: 10px;
+  border: 1px solid #000000;
+  text-align: center;
+}
+
+.calendar-day:hover {
+  background-color: #f0f0f0;
+}
+/* styles.css */
+.current-date {
+  background-color: #2fff32b2;
+  color: rgb(0, 0, 0);
+  border-radius: 10%;
+}
